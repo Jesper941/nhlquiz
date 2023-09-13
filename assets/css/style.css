@@ -51,10 +51,11 @@ a {
     margin-bottom: 5vh;
     margin-right: 30px;
     margin-left: 15px;
-    min-width: 50vw;
+    min-width: 60vw;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    font-size: 2rem;
 }
 
 /*Styling for the container with the welcoming and info-text*/
@@ -68,4 +69,21 @@ a {
     padding: 20px;
     border-radius: 10px;
     font-size: 1.2em;
+}
+
+/*Styling so the containers stack in a column rather than shrinking too much*/
+@media screen and (max-width: 768px) {
+    #main-container {
+        flex-direction: column-reverse;
+    }
+}
+
+/*General styling for the h1 header in the quiz container*/
+#quiz-container h1 {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+}
+
+#full-name {
+    font-size: 2rem;
 }
