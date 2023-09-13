@@ -43,7 +43,8 @@ Happy coding!
 
 <!--Credits: 
 1. General tips and tricks "https://www.youtube.com/watch?v=8dWL3wF_OMw&t=1275s"
-2. For making multiple questions "https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/"
-3. For help with the gradient colored background "https://www.w3schools.com/css/css3_gradients.asp"
-4. The lessons and guides in the Code Institude course material.
-5. -->
+2. For more in-depth help with creating a quiz "https://www.youtube.com/watch?v=PBcqGxrr9g8"
+3. For making multiple questions "https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/"
+4. For help with the gradient colored background "https://www.w3schools.com/css/css3_gradients.asp"
+5. The lessons and guides in the Code Institude course material.
+6. -->

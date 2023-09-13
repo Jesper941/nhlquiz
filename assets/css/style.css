@@ -47,20 +47,52 @@ a {
     background-color: #003c56fe;
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-bottom: 5vh;
     margin-right: 30px;
     margin-left: 15px;
     min-width: 60vw;
     padding: 20px;
-    border: 1px solid #ccc;
+    padding-top: 40vh;
     border-radius: 10px;
     font-size: 2rem;
+    position: relative;
+}
+
+#quiz-container fieldset {
+    min-width: 50%;
+    max-width: 100%;
+    /* Adjust the maximum width as needed */
+    margin: auto;
+    /* Center the fieldset within the container */
+    border: none;
+}
+
+#start-btn {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #003c56fe;
+    color: white;
+}
+
+#quiz-container input {
+    margin: 5px;
+}
+
+#quiz-banner {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /*Styling for the container with the welcoming and info-text*/
 #quiz-information-container {
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-bottom: 5vh;
     margin-right: 30px;
     margin-left: 15px;
@@ -70,6 +102,7 @@ a {
     border-radius: 10px;
     font-size: 1.2em;
 }
+
 
 /*Styling so the containers stack in a column rather than shrinking too much*/
 @media screen and (max-width: 768px) {
@@ -81,7 +114,7 @@ a {
 /*General styling for the h1 header in the quiz container*/
 #quiz-container h1 {
     color: rgb(255, 255, 255);
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 #full-name {

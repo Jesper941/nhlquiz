@@ -1,3 +1,5 @@
+/*My array of questions and answers for the quiz*/
+
 const nhlQuestions = [
     {
         question: "What year was the NHL founded?",

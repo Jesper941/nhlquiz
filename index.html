@@ -2,46 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <meta
       name="keywords"
-      content="NHL, Hockey, Ice-hockey, National-Hockey-League, Sports, Sports Quiz, Hockey Quiz">
+      content="NHL, Hockey, Ice-hockey, National-Hockey-League, Sports, Sports Quiz, Hockey Quiz"
+    />
     <meta
       name="description"
-      content="A fun NHL-themed quiz to test your knowledge about the NHL">
+      content="A fun NHL-themed quiz to test your knowledge about the NHL"
+    />
     <title>NHL Quiz</title>
     <!--Script for the font-style that allows me to use icons for hyperlinks-->
     <script
       src="https://kit.fontawesome.com/eb77d55882.js"
       crossorigin="anonymous"
     ></script>
-    </head>
-    <body>
-        <header> 
-            <!--The image in the header that works as a link to the homepage-->
-            <a href="index.html" id="home-icon">
-            <img src="assets/images/nhl-shield.png" alt="The NHL-shield logo" style="width: 12vw;">
-        </a> NHL Quiz
-        </header>
-            <!--Main section-->
-        <main id="main-container">
-            <!--Where the quiz will be held-->
-            <section id="quiz-container">
-                <h1>NHL-Quiz</h1>
-                <fieldset>
-                <label for="full-name">Enter your name: </label>
-                <input type="text" id="full-name" placeholder="Type your name here..." required>
-                <button style="font-size:1.8rem;">Start Quiz</button>
-                </fieldset>
-            </section>
-        <!--The side section with information about the quiz-->
-            <section id="quiz-information-container">
-                <h2>Welcome, to the greatest NHL quiz of all time!</h2>
-                <p>
-                    Here you get to try your knowledge about the National Hockey League <br>
-                    Play with your friends and see who really has the best insight in the worlds greatest hockey league!
-                </p>
-        </section>
-</body>
+  </head>
+  <body>
+    <header>
+      <!--The image in the header that works as a link to the homepage-->
+      <a href="index.html" id="home-icon">
+        <img
+          src="assets/images/nhl-shield.png"
+          alt="The NHL-shield logo"
+          style="width: 12vw"
+        />
+      </a>
+      NHL Quiz
+    </header>
+    <!--Main section-->
+    <main id="main-container">
+      <!--Where the quiz will be held-->
+      <section id="quiz-container">
+        <img
+          src="assets/images/quizbanner.png"
+          alt="Quiz banner image"
+          id="quiz-banner"
+        />
+        <!--Quiz banner-->
+        <div id="intro-area">
+          <h1>Want to try your NHL knowledge?<br />Take</h1>
+          <hr />
+        </div>
+        <!--Fieldset for name input-->
+        <div id="username-area">
+          <label for="full-name">Enter your name: </label>
+          <input
+            type="text"
+            id="full-name"
+            placeholder="Type your name here..."
+            required
+          />
+          <button id="start-btn" style="font-size: 1.8rem">Start Quiz</button>
+        </div>
+        <div id="questions-area"></div>
+      </section>
+      <!--The side section with information about the quiz-->
+      <section id="quiz-information-container">
+        <h2>Welcome, to the greatest NHL quiz of all time!</h2>
+        <p>
+          Here you get to try your knowledge about the National Hockey League
+          <br />
+          Play with your friends and see who really has the best insight in the
+          worlds greatest hockey league!
+        </p>
+      </section>
+    </main>
+    <script src="assets/scripts/quiz.js"></script>
+  </body>
 </html>
