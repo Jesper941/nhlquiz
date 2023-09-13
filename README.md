@@ -47,4 +47,4 @@ Happy coding!
 3. For making multiple questions "https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/"
 4. For help with the gradient colored background "https://www.w3schools.com/css/css3_gradients.asp"
 5. The lessons and guides in the Code Institude course material.
-6. -->
+6. How to hide divs until i started the quiz"https://stackoverflow.com/questions/56111480/how-can-i-hide-a-div-until-a-button-is-clicked"-->

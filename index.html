@@ -38,26 +38,40 @@
         <img
           src="assets/images/quizbanner.png"
           alt="Quiz banner image"
-          id="quiz-banner"
-        />
+          id="quiz-banner">
+        <hr>
+
         <!--Quiz banner-->
         <div id="intro-area">
-          <h1>Want to try your NHL knowledge?<br />Take</h1>
-          <hr />
+          <h1>Want to try your NHL knowledge?<br />Take the quiz below!</h1>
         </div>
-        <!--Fieldset for name input-->
+
+        <!--Area to enter username-->
         <div id="username-area">
           <label for="full-name">Enter your name: </label>
           <input
             type="text"
             id="full-name"
             placeholder="Type your name here..."
-            required
-          />
-          <button id="start-btn" style="font-size: 1.8rem">Start Quiz</button>
+            required>
+              <button id="start-btn" style="font-size: 1.5rem">Start Quiz</button>
         </div>
-        <div id="questions-area"></div>
+
+          <!--Main quiz area-->
+          <section id="quiz-area" style="display: none;">
+            <h2>Question goes here</h2>
+            <div id="answer-buttons">
+              <button class="answer-button">answer1</button>
+              <button class="answer-button">answer2</button>
+              <button class="answer-button">answer3</button>
+              <button class="answer-button">answer4</button>
+            </div>
+          </section>
+
+          <!--Button that starts the whole quiz-->
+        </div>
       </section>
+
       <!--The side section with information about the quiz-->
       <section id="quiz-information-container">
         <h2>Welcome, to the greatest NHL quiz of all time!</h2>

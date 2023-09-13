@@ -59,14 +59,6 @@ a {
     position: relative;
 }
 
-#quiz-container fieldset {
-    min-width: 50%;
-    max-width: 100%;
-    /* Adjust the maximum width as needed */
-    margin: auto;
-    /* Center the fieldset within the container */
-    border: none;
-}
 
 #start-btn {
     margin: 5px;
@@ -76,7 +68,8 @@ a {
 }
 
 #quiz-container input {
-    margin: 5px;
+    margin: 3px;
+    font-size: 1.4rem;
 }
 
 #quiz-banner {
@@ -115,8 +108,4 @@ a {
 #quiz-container h1 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
-}
-
-#full-name {
-    font-size: 1.8rem;
 }
