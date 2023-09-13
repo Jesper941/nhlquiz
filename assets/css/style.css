@@ -1,0 +1,57 @@
+/*Edit the style for the enitre HTML page*/
+html {
+    font-family: Calibri, 'Times New Roman', Times, serif;
+}
+
+/*General styling for the whole body, including the background colors*/
+body {
+    background-image: linear-gradient(to left,
+            rgba(3, 126, 126, 0.722) 0%,
+            rgb(196, 224, 224) 80%,
+            rgba(253, 80, 80, 0.182) 100%);
+}
+
+/*Styling for the header goes here*/
+header {
+    color: rgba(0, 0, 0, 0.811);
+    font-size: 12vw;
+    font-weight: bold;
+    font-family: Calibri, 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+/*Container for all content so that i can flex the two containers and show them side by side*/
+#main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Styling for the container where the quiz takes place*/
+#quiz-container {
+    background-color: #003c56fe;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-right: 30px;
+    margin-left: 15px;
+    min-width: 50vw;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/*Styling for the container with the welcoming and info-text*/
+#quiz-information-container {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-right: 30px;
+    margin-left: 15px;
+    background-color: rgba(245, 245, 245, 0.629);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
