@@ -37,3 +37,13 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
+
+
+
+
+<!--Credits: 
+1. General tips and tricks "https://www.youtube.com/watch?v=8dWL3wF_OMw&t=1275s"
+2. For making multiple questions "https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/"
+3. For help with the gradient colored background "https://www.w3schools.com/css/css3_gradients.asp"
+4. The lessons and guides in the Code Institude course material.
+5. -->
