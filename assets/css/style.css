@@ -22,6 +22,20 @@ header {
     padding: 20px;
 }
 
+/*Styling that removes the purple underline from the link in the anchor*/
+a {
+    text-decoration: none;
+    position: absolute;
+    left: 10px;
+}
+
+/*Adding some margin for the icon and making it responsive with automatic margin*/
+#home-icon {
+    margin-left: 25px;
+    margin-top: 20px;
+    margin: auto;
+}
+
 /*Container for all content so that i can flex the two containers and show them side by side*/
 #main-container {
     display: flex;
