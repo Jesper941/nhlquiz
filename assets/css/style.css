@@ -126,3 +126,20 @@ a {
     justify-content: center;
     justify-items: center;
 }
+
+/*Styling for the answer buttons*/
+.answer-button {
+    width: 80%;
+    font-size: 1.8rem;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*Changing positioning of the start/replay button*/
+#start-button {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
