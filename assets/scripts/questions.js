@@ -119,11 +119,11 @@ const questions = [
         ]
     },
     {
-        question: "What is the maximum number of games a team can play in a single NHL season, including playoffs?",
+        question: "What is the maximum number of games a team can play in a single NHL season?",
         answers: [
-            { text: "82", correct: false },
+            { text: "82", correct: true },
             { text: "84", correct: false },
-            { text: "86", correct: true },
+            { text: "86", correct: false },
             { text: "88", correct: false },
         ]
     },

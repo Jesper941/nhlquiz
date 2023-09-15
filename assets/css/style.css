@@ -1,6 +1,7 @@
 /*Edit the style for the enitre HTML page*/
 html {
     font-family: Calibri, 'Times New Roman', Times, serif;
+    font-size: 10px;
 }
 
 /*General styling for the whole body, including the background colors*/
@@ -14,7 +15,7 @@ body {
 /*Styling for the header goes here*/
 header {
     color: rgba(0, 0, 0, 0.811);
-    font-size: 12vw;
+    font-size: 10vw;
     font-weight: bold;
     font-family: Calibri, 'Times New Roman', Times, serif;
     text-align: center;
@@ -75,7 +76,7 @@ a {
 #quiz-banner {
     width: 100%;
     max-width: 100%;
-    height: 300px;
+    height: 240px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     position: absolute;
@@ -89,6 +90,8 @@ a {
     margin-bottom: 5vh;
     margin-right: 30px;
     margin-left: 15px;
+    height: 50vh;
+    max-height: 50vh;
     background-color: rgba(245, 245, 245, 0.629);
     color: rgb(0, 0, 0);
     padding: 20px;
@@ -98,9 +101,15 @@ a {
 
 
 /*Styling so the containers stack in a column rather than shrinking too much*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
     #main-container {
         flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #quiz-information-container {
+        max-height: 45vh;
     }
 }
 
@@ -130,9 +139,9 @@ a {
 /*Styling for the answer buttons*/
 .answer-button {
     width: 80%;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin: 20px;
-    padding: 20px;
+    padding: 16px;
     border-radius: 10px;
 }
 
@@ -143,6 +152,7 @@ a {
     justify-content: center;
     justify-content: center;
 }
+
 /*Styling for the start quiz button*/
 #start-btn {
     margin: 5px;
@@ -156,7 +166,7 @@ a {
     text-decoration: none;
     width: 15%;
     font-size: 1.2rem;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
 }
