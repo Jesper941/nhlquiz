@@ -36,3 +36,32 @@ function startQuiz() {
     questionNumber = 0;
     scoreElement = 0;
 }
+
+/*This function is responsible for showing the question and it's answer options in the quiz area.
+It also disables the next question button until an answer has been chosen.*/
+function showQuestion(question) {
+    resetQuestion();
+    document.getElementById("question-number").innerText = `${++questionNumber}/10`;
+    nextButton.disabled = true;
+    questionElement.innerText = question.question;
+
+    question.answers.forEach(answer => {
+        const button = document.createElement("button");
+        button.innerText = answer.text;
+        button.classList.add("answer-button");
+        answerButtons.appendChild(button);
+
+        button.addEventListener("click", (e) => { // Pass the event object (e)
+            selectAnswer(e, answer); // Pass the event object and the answer object to selectAnswer
+        });
+
+    });
+}
+
+// Removes the old answer buttons and resets it for the new question//
+function resetQuestion() {
+    while (answerButtons.firstChild) {
+        answerButtons.firstChild.disabled = false; // Set disabled to false to make buttons clickable
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
+}
