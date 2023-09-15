@@ -65,3 +65,36 @@ function resetQuestion() {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
+
+/*Changes your score if the correct answer was chosen.  
+Changes colors of the buttons depending on the answer
+*/
+function selectAnswer(e, answer) {
+    const selectedBtn = e.target;
+    const isCorrect = answer.correct;
+    if (isCorrect) {
+        document.getElementById("score").innerText = ++scoreElement;
+        selectedBtn.style.background = "#3bd43b";
+    } else {
+        selectedBtn.style.background = "red";
+    }
+
+    // Disables all answer buttons after selecting an answer
+    Array.from(answerButtons.children).forEach(button => {
+        button.disabled = true;
+    });
+
+    // Enables the "Next question" button
+    nextButton.disabled = false;
+}
+
+/*This sets the amount of questions the quiz will have before it goes to the final score screen*/
+nextButton.addEventListener("click", () => {
+    currentQuestion++;
+    if (currentQuestion < 10) {
+        setNextQuestion();
+    } else {
+        //final score page//
+    }
+
+});
