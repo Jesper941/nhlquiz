@@ -35,6 +35,14 @@ function startQuiz() {
     currentQuestion = 0;
     questionNumber = 0;
     scoreElement = 0;
+
+    /*Looks out of place but it's here so that the quiz starts right away without the user
+    having to press the "Next Question" button first*/
+    setNextQuestion();
+}
+/*This function calls a random question to the next question to show in the next function*/
+function setNextQuestion() {
+    showQuestion(randomQuestions[currentQuestion]);
 }
 
 /*This function is responsible for showing the question and it's answer options in the quiz area.
@@ -58,17 +66,16 @@ function showQuestion(question) {
     });
 }
 
+
 // Removes the old answer buttons and resets it for the new question//
 function resetQuestion() {
     while (answerButtons.firstChild) {
-        answerButtons.firstChild.disabled = false; // Set disabled to false to make buttons clickable
+        answerButtons.firstChild.disabled = false; // Set disabled to false to make the answerbuttons clickable
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
 
-/*Changes your score if the correct answer was chosen.  
-Changes colors of the buttons depending on the answer
-*/
+/*Changes your score if the correct answer was chosen and changes colors of the buttons depending on the answer*/
 function selectAnswer(e, answer) {
     const selectedBtn = e.target;
     const isCorrect = answer.correct;
@@ -87,8 +94,8 @@ function selectAnswer(e, answer) {
     // Enables the "Next question" button
     nextButton.disabled = false;
 }
-
-/*This sets the amount of questions the quiz will have before it goes to the final score screen*/
+/* This function will get us to the next question until we've reached 10 questions.
+Once at 10, the final score page will appear.*/
 nextButton.addEventListener("click", () => {
     currentQuestion++;
     if (currentQuestion < 10) {
@@ -102,23 +109,23 @@ nextButton.addEventListener("click", () => {
 /*Recalling the resetQuestion function to clear the page and show the final score area*/
 function showScore() {
     resetQuestion();
-
-    scoreArea.style.display = "none";
-    quizArea.style.display = "none";
-    questionCounter.style.display = "none";
-    finalScore.style.display = "flex";
     questionElement.innerText = "";
     startButton.innerText = "Replay";
     startButton.style.display = "flex";
     nextButton.style.display = "none";
+    scoreArea.style.display = "none";
+    quizArea.style.display = "none";
+    questionCounter.style.display = "none";
+    finalScore.style.display = "flex";
 
-    let userName = document.getElementById("full-name").value;
+    const userName = document.getElementById("full-name").value;
 
-    if (scoreElement > 7) {
+    if (scoreElement > 6) {
         finalScore.innerText = `Wow, you're an NHL expert, ${userName}! You scored ${scoreElement} out of 10`;
-    } else if (scoreElement > 3) {
-        finalScore.innerText = `It's not your first time hearing about the NHL, eh ${userName}? You scored ${scoreElement} out of 10`;
+    } else if (scoreElement > 4) {
+        finalScore.innerText = `You did pretty good, ${userName}! You scored ${scoreElement} out of 10`;
     } else {
         finalScore.innerText = `Oof, maybe hockey just ain't for you, ${userName}? You scored ${scoreElement} out of 10`;
     }
+    document.getElementById("score").innerText = 0;
 }
