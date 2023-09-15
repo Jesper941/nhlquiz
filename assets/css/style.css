@@ -169,6 +169,10 @@ a {
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
+    margin: 0 auto;
+    /* Center the button horizontally */
+    display: block;
+    /* Ensure the margin auto works to center it */
 }
 
 #score-area {
