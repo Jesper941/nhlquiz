@@ -143,3 +143,37 @@ a {
     justify-content: center;
     justify-content: center;
 }
+/*Styling for the start quiz button*/
+#start-btn {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+
+#next-btn {
+    text-decoration: none;
+    width: 15%;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#score-area {
+    display: none;
+}
+
+#final-score {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+#question-number {
+    margin-top: 20px;
+    display: none;
+}
