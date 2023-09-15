@@ -98,3 +98,27 @@ nextButton.addEventListener("click", () => {
     }
 
 });
+
+/*Recalling the resetQuestion function to clear the page and show the final score area*/
+function showScore() {
+    resetQuestion();
+
+    scoreArea.style.display = "none";
+    quizArea.style.display = "none";
+    questionCounter.style.display = "none";
+    finalScore.style.display = "flex";
+    questionElement.innerText = "";
+    startButton.innerText = "Replay";
+    startButton.style.display = "flex";
+    nextButton.style.display = "none";
+
+    let userName = document.getElementById("full-name").value;
+
+    if (scoreElement > 7) {
+        finalScore.innerText = `Wow, you're an NHL expert, ${userName}! You scored ${scoreElement} out of 10`;
+    } else if (scoreElement > 3) {
+        finalScore.innerText = `It's not your first time hearing about the NHL, eh ${userName}? You scored ${scoreElement} out of 10`;
+    } else {
+        finalScore.innerText = `Oof, maybe hockey just ain't for you, ${userName}? You scored ${scoreElement} out of 10`;
+    }
+}
