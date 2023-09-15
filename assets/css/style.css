@@ -22,6 +22,11 @@ header {
     padding: 20px;
 }
 
+label {
+    margin: 3px;
+    font-size: 2rem;
+}
+
 /*Styling that removes the purple underline from the link in the anchor*/
 a {
     text-decoration: none;
@@ -53,25 +58,20 @@ a {
     margin-left: 15px;
     min-width: 60vw;
     padding: 20px;
-    padding-top: 40vh;
+    padding-top: 32vh;
+    padding-bottom: 5vh;
     border-radius: 10px;
     font-size: 2rem;
     position: relative;
 }
 
-
-#start-btn {
-    margin: 5px;
-    border-radius: 5px;
-    background-color: #003c56fe;
-    color: white;
-}
-
+/*Change the size and margins of the input box here*/
 #quiz-container input {
     margin: 3px;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 
+/*Styling for the banner image in the quiz container*/
 #quiz-banner {
     width: 100%;
     max-width: 100%;
@@ -93,12 +93,12 @@ a {
     color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 10px;
-    font-size: 1.2em;
+    font-size: 1.7em;
 }
 
 
 /*Styling so the containers stack in a column rather than shrinking too much*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     #main-container {
         flex-direction: column-reverse;
     }
@@ -108,4 +108,21 @@ a {
 #quiz-container h1 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
+}
+
+/*Change the general font-size for the quiz area*/
+#quiz-area {
+    font-size: 1.5rem;
+}
+
+/*Change font-size for the h2 title in the quiz area*/
+#quiz-area>h2 {
+    font-size: 3rem;
+}
+
+/*Styling in order to flex the buttons and make them appear in colums*/
+.answer-buttons {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
