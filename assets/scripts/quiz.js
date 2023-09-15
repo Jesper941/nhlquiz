@@ -12,6 +12,8 @@ const finalScore = document.getElementById("final-score");
 const questionCounter = document.getElementById("question-number");
 let scoreElement = parseInt(document.getElementById("score").innerText);
 
+
+const userName = document.getElementById("full-name").value;
 let randomQuestions, currentQuestion, questionNumber;
 
 /*Listener for the start button to start the quiz*/
@@ -19,12 +21,19 @@ startButton.addEventListener("click", (startQuiz));
 
 /*Functions that starts once the start button has been clicked. 
 It hides the introduction and reveals the quiz itself*/
+
+
 function startQuiz() {
+    /*if (userName.trim() == "") {
+     alert("Enter your name");
+        return false;
+    } else { */
+    resetQuestion();
     startButton.style.display = "none";
     introArea.style.display = "none";
     usernameArea.style.display = "none";
     quizArea.style.display = "block";
-    nextButton.style.display = "center";
+    nextButton.style.display = "block";
     finalScore.style.display = "none";
     scoreArea.style.display = "block";
     questionCounter.style.display = "block";
@@ -39,6 +48,7 @@ function startQuiz() {
     /*Looks out of place but it's here so that the quiz starts right away without the user
     having to press the "Next Question" button first*/
     setNextQuestion();
+    // }
 }
 /*This function calls a random question to the next question to show in the next function*/
 function setNextQuestion() {
@@ -118,7 +128,6 @@ function showScore() {
     questionCounter.style.display = "none";
     finalScore.style.display = "flex";
 
-    const userName = document.getElementById("full-name").value;
 
     if (scoreElement > 6) {
         finalScore.innerText = `Wow, you're an NHL expert, ${userName}! You scored ${scoreElement} out of 10`;
