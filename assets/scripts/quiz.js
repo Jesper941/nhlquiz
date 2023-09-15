@@ -94,7 +94,7 @@ nextButton.addEventListener("click", () => {
     if (currentQuestion < 10) {
         setNextQuestion();
     } else {
-        //final score page//
+        showScore();
     }
 
 });
