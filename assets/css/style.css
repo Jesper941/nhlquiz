@@ -90,13 +90,15 @@ a {
     margin-bottom: 5vh;
     margin-right: 30px;
     margin-left: 15px;
-    height: 50vh;
-    max-height: 50vh;
+    max-height: calc(50vh - 5px);
+    /* Set a maximum height and subtract 5px for the extra space */
+    overflow-y: auto;
+    /* Add vertical scrollbar if the content exceeds the maximum height */
     background-color: rgba(245, 245, 245, 0.629);
     color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 10px;
-    font-size: 1.7em;
+    font-size: 2rem;
 }
 
 
