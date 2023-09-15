@@ -21,13 +21,16 @@ startButton.addEventListener("click", (startQuiz));
 
 /*Functions that starts once the start button has been clicked. 
 It hides the introduction and reveals the quiz itself*/
-
-
 function startQuiz() {
-    /*if (userName.trim() == "") {
-     alert("Enter your name");
-        return false;
-    } else { */
+
+    //Makes the quiz not accept blank spaces as a username//
+    const userName = document.getElementById("full-name").value.trim();
+
+    if (userName === "") {
+        alert("Please enter a valid username.");
+        return;
+    }
+
     resetQuestion();
     startButton.style.display = "none";
     introArea.style.display = "none";
@@ -48,8 +51,8 @@ function startQuiz() {
     /*Looks out of place but it's here so that the quiz starts right away without the user
     having to press the "Next Question" button first*/
     setNextQuestion();
-    // }
 }
+
 /*This function calls a random question to the next question to show in the next function*/
 function setNextQuestion() {
     showQuestion(randomQuestions[currentQuestion]);

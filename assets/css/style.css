@@ -15,7 +15,7 @@ body {
 /*Styling for the header goes here*/
 header {
     color: rgba(0, 0, 0, 0.811);
-    font-size: 2000%;
+    font-size: 10vw;
     font-weight: bold;
     font-family: Calibri, 'Times New Roman', Times, serif;
     text-align: center;
@@ -25,7 +25,7 @@ header {
 
 label {
     margin: 3px;
-    font-size: 120%;
+    font-size: 3rem;
 }
 
 /*Styling that removes the purple underline from the link in the anchor*/
@@ -69,7 +69,7 @@ a {
 /*Change the size and margins of the input box here*/
 #quiz-container input {
     margin: 3px;
-    font-size: 1.7rem;
+    font-size: 2.3rem;
 }
 
 /*Styling for the banner image in the quiz container*/
@@ -116,7 +116,7 @@ a {
 /*General styling for the h1 header in the quiz container*/
 #quiz-container h1 {
     color: rgb(255, 255, 255);
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 /*Change the general font-size for the quiz area*/
