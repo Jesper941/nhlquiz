@@ -68,8 +68,10 @@ a {
 
 /*Change the size and margins of the input box here*/
 #quiz-container input {
-    margin: 3px;
+    margin-left: 10px;
+    margin-top: 10px;
     font-size: 2.3rem;
+    padding: 5px;
 }
 
 /*Styling for the banner image in the quiz container*/
@@ -109,16 +111,10 @@ a {
     }
 }
 
-@media screen and (max-width: 1024px) {
-    #quiz-information-container {
-        max-height: 30vh;
-    }
-}
-
 /*General styling for the h1 header in the quiz container*/
 #quiz-container h1 {
     color: rgb(255, 255, 255);
-    font-size: 4rem;
+    font-size: 3vw;
 }
 
 /*Change the general font-size for the quiz area*/
@@ -136,6 +132,7 @@ a {
     display: flex;
     justify-content: center;
     justify-items: center;
+    margin-bottom: 3vh;
 }
 
 /*Styling for the answer buttons*/
@@ -158,10 +155,11 @@ a {
 /*Styling for the start quiz button*/
 #start-btn {
     margin: 5px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
     background-color: white;
     color: black;
+    font-size: 20px;
 }
 
 #next-btn {
@@ -175,6 +173,10 @@ a {
     /* Center the button horizontally */
     display: block;
     /* Ensure the margin auto works to center it */
+}
+
+#intro-area {
+    margin-top: -40px;
 }
 
 #score-area {
