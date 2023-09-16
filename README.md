@@ -142,6 +142,8 @@ What does this quiz feature?
 
 There is really only one page, but the NHL-shield logo in the top left corner will load the index.html and take you back to the beginning of the quiz where you enter your username.
 
+![logo-link](assets/images/link-shield.png)
+
 ### Future Implementations
 
 - Add a choice for the player on how many questions the quiz should be.
