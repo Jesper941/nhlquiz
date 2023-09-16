@@ -120,22 +120,23 @@ A blank space for their username will not be valid and a message will be prompte
 ## Features
 
 What does this quiz feature?
-10 challenging NHL-related questions.
-Multiple-choice answers for each question.
-Interactive design with user-friendly buttons.
-Real-time scoring to track your progress.
-A final score page with personalized feedback.
-Replay the quiz to improve your score.
+
+- 10 challenging NHL-related questions.
+- Multiple-choice answers for each question.
+- Interactive design with user-friendly buttons.
+- Real-time scoring to track your progress.
+- A final score page with personalized feedback.
+- Replay the quiz to improve your score.
 
 ## How to Play
 
-Visit the NHL Quiz webpage.
-Enter your name in the provided field.
-Click the "Start Quiz" button.
-Answer each question by clicking on the multiple-choice options.
-Click the "Next Question" button to advance.
-After 10 questions, see your final score and feedback.
-Click "Replay" to play the quiz again and beat your previous score.
+- Visit the NHL Quiz webpage.
+- Enter your name in the provided field.
+- Click the "Start Quiz" button.
+- Answer each question by clicking on the multiple-choice options.
+- Click the "Next Question" button to advance.
+- After 10 questions, see your final score and feedback.
+- Click "Replay" to play the quiz again and beat your previous score.
 
 ### Navigation
 
@@ -209,7 +210,7 @@ I wrote the code myself but with some help from the sites and people mentioned a
 
 ###  Media
 
-Background image in the header: <https://www.11inchpizza.com.au/wp-content/uploads/2019/10/pizza-ingredients-768x513.jpg>
+Background image in the header: <https://www.hockeymonkey.com/media/magefan_blog/Hockey_Trivia_Banner.jpg>
 
 ### Feedback
 
