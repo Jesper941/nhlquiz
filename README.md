@@ -83,21 +83,37 @@ I use the "Calibri" font style for the entire website. The backup font styles ar
 
 - Starting off with the home page where the visitor has to enter a valid username.
 A blank space for their username will not be valid and a message will be prompted as in the picture.
+
 ![username](assets/images/enter-valid-name.png)
 
 - Once you've entered a valid username, the introduction area will disappear and the quiz will appear.
+
 ![quiz-appearing](assets/images/quiz-area.png)
 
+
 - If you enter an incorrect answer, the answer you chose will turn red. Your point score will stay the same, and when you hit the "next question" button, the question number counter will increase.
-  ![wrong](assets/images/wrong.png)
+  
+![wrong](assets/images/wrong.png)
 
-- If you answer a question correctly, the question you chose turns green. Your point score will increase by one and as soon as you click the "next question" button, the question number counter will increase. ![correct](assets/images/correct.png)
+- If you answer a question correctly, the question you chose turns green. Your point score will increase by one and as soon as you click the "next question" button, the question number counter will increase. 
 
-- If you end up with a score of 3 or lower, you get the following message. ![low-score](assets/images/low-score.png)
-- If you end up with a score of 4 and 6, you get the following message. ![mid-score](assets/images/mid-score.png)
-- If you end up with a score of 7 or higher, you get the following message. ![high-score](assets/images/high-score.png)
+![correct](assets/images/correct.png)
 
-- If you press the "Replay" button by the end of the quiz, you get taken straight back to the first question of the next quiz. ![replay](assets/images/replay.png)
+- If you end up with a score of 3 or lower, you get the following message. 
+  
+  ![low-score](assets/images/low-score.png)
+  
+- If you end up with a score of 4 and 6, you get the following message. 
+  
+  ![mid-score](assets/images/mid-score.png)
+  
+- If you end up with a score of 7 or higher, you get the following message. 
+  
+  ![high-score](assets/images/high-score.png)
+
+- If you press the "Replay" button by the end of the quiz, you get taken straight back to the first question of the next quiz. 
+  
+  ![replay](assets/images/replay.png)
   
 ---
 

@@ -1,5 +1,7 @@
 /*Variables and elements that are declared by their ID's*/
 
+/*jshint esversion: 6 */
+
 const startButton = document.getElementById("start-btn");
 const introArea = document.getElementById("intro-area");
 const usernameArea = document.getElementById("username-area");
@@ -13,7 +15,6 @@ const questionCounter = document.getElementById("question-number");
 let scoreElement = parseInt(document.getElementById("score").innerText);
 
 
-const userName = document.getElementById("full-name").value;
 let randomQuestions, currentQuestion, questionNumber;
 
 /*Listener for the start button to start the quiz*/
