@@ -48,3 +48,7 @@ Happy coding!
 4. For help with the gradient colored background "https://www.w3schools.com/css/css3_gradients.asp"
 5. The lessons and guides in the Code Institude course material.
 6. How to hide divs until i started the quiz"https://stackoverflow.com/questions/56111480/how-can-i-hide-a-div-until-a-button-is-clicked"-->
+7. assets/images/quizpalette.png - color palette
+8. assets/images/enter-valid-name.png - Enter valid name alert
+9. assets/images/quiz-area.png - Hide intro area and quiz appears
+10. assets/images/wrong.png - If an answer is wrong, turn red, points stay still, question number increases.
