@@ -135,7 +135,7 @@ function showScore() {
     if (scoreElement > 6) {
         finalScore.innerText = `Wow, you're an NHL expert! You scored ${scoreElement} out of 10`;
     } else if (scoreElement > 3) {
-        finalScore.innerText = `! You scored ${scoreElement} out of 10`;
+        finalScore.innerText = `You did pretty good! You scored ${scoreElement} out of 10`;
     } else {
         finalScore.innerText = `Oof, maybe hockey just ain't for you? You scored ${scoreElement} out of 10`;
     }

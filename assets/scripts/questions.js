@@ -77,8 +77,8 @@ const questions = [
         question: "Who is the all-time leader in career points scored in the NHL?",
         answers: [
             { text: "Mario Lemieux", correct: false },
-            { text: "Gordie Howe", correct: true },
-            { text: "Wayne Gretzky", correct: false },
+            { text: "Gordie Howe", correct: false },
+            { text: "Wayne Gretzky", correct: true },
             { text: "Jaromir Jagr", correct: false },
         ]
     },
