@@ -72,6 +72,7 @@ a {
     margin-top: 10px;
     font-size: 2.3rem;
     padding: 5px;
+    width: 80%;
 }
 
 /*Styling for the banner image in the quiz container*/
@@ -128,7 +129,7 @@ a {
 }
 
 /*Styling in order to flex the buttons and make them appear in colums*/
-.answer-buttons {
+#answer-buttons {
     display: flex;
     justify-content: center;
     justify-items: center;
