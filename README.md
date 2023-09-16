@@ -1,4 +1,4 @@
-![image](https://github.com/Jesper941/pizzeriapalermo/assets/141741600/9a5a1fd4-7738-446d-ae63-4b84416d9b1c)# NHL QUIZ
+# NHL - QUIZ
 
 "Welcome to the NHL Quiz, a fun and challenging quiz game that tests your knowledge about the National Hockey League (NHL). 
 Are you ready to prove your expertise in the world of ice hockey? Let's drop the puck and get started!"
@@ -15,31 +15,32 @@ You can view the GitHub code pages here. (https://github.com/Jesper941/nhlquiz.g
 
 ## CONTENTS
 
-- [CONTENTS](#contents)
-    - [Visitors Goals](#visitors-goals)
-    - [First-Time Visitor Goals](#first-time-visitor-goals)
-    - [Returning Visitor Goals](#returning-visitor-goals)
-    - [Frequent Visitor Goals](#frequent-visitor-goals)
-- [Design](#design)
-  - [Colour Scheme](#colour-scheme)
-  - [Typography](#typography)
-  - [Function Styling](#function-styling)
-- [Features](#features)
-- [How to Play](#how-to-play)
-  - [Navigation](#navigation)
-  - [Future Implementations](#future-implementations)
-  - [Accessibility](#accessibility)
-- [Technologies Used](#technologies-used)
-  - [Languages Used](#languages-used)
-  - [Local Development](#local-development)
-    - [How to Fork](#how-to-fork)
-    - [How to Clone](#how-to-clone)
-- [Testing](#testing)
-- [Credits](#credits)
-  - [Code Used](#code-used)
-  - [Content](#content)
-  - [Media](#media)
-  - [Feedback](#feedback)
+- [NHL - QUIZ](#nhl---quiz)
+  - [CONTENTS](#contents)
+      - [Visitors Goals](#visitors-goals)
+      - [First-Time Visitor Goals](#first-time-visitor-goals)
+      - [Returning Visitor Goals](#returning-visitor-goals)
+      - [Frequent Visitor Goals](#frequent-visitor-goals)
+  - [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Function Styling](#function-styling)
+  - [Features](#features)
+  - [How to Play](#how-to-play)
+    - [Navigation](#navigation)
+    - [Future Implementations](#future-implementations)
+    - [Accessibility](#accessibility)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Local Development](#local-development)
+      - [How to Fork](#how-to-fork)
+      - [How to Clone](#how-to-clone)
+  - [Testing](#testing)
+  - [Credits](#credits)
+    - [Code Used](#code-used)
+    - [Content](#content)
+    - [Media](#media)
+    - [Feedback](#feedback)
   
 ---
 
