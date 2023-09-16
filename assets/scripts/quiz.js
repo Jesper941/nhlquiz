@@ -133,11 +133,11 @@ function showScore() {
 
 
     if (scoreElement > 6) {
-        finalScore.innerText = `Wow, you're an NHL expert, ${userName}! You scored ${scoreElement} out of 10`;
-    } else if (scoreElement > 4) {
-        finalScore.innerText = `You did pretty good, ${userName}! You scored ${scoreElement} out of 10`;
+        finalScore.innerText = `Wow, you're an NHL expert! You scored ${scoreElement} out of 10`;
+    } else if (scoreElement > 3) {
+        finalScore.innerText = `! You scored ${scoreElement} out of 10`;
     } else {
-        finalScore.innerText = `Oof, maybe hockey just ain't for you, ${userName}? You scored ${scoreElement} out of 10`;
+        finalScore.innerText = `Oof, maybe hockey just ain't for you? You scored ${scoreElement} out of 10`;
     }
     document.getElementById("score").innerText = 0;
 }

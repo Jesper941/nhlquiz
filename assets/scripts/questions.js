@@ -42,7 +42,7 @@ const questions = [
         answers: [
             { text: "1990", correct: false },
             { text: "2000", correct: false },
-            { text: "2005", correct: false },
+            { text: "2003", correct: false },
             { text: "2005", correct: true },
         ]
     },
